@@ -1,0 +1,230 @@
+@media only screen and (max-width: 768px) {
+  header .navbar-brand {
+    padding-left: 1rem;
+  }
+  #navbarNav{
+    background: white;
+border-radius: 15px;
+padding: 15px;
+  }
+  #navbarNav :hover{
+    background: white;
+border-radius: 15px;
+padding: 15px;
+  }
+  header a {
+    font-family: var(--Sniglet-font);
+    font-size: 0.9em;
+    color: #1a1a1a;
+    font-size: 20px;
+  }
+
+  header .container .col-md-6{
+    position: initial;
+    width: initial;
+    height: initial;
+  }
+
+  .dropdown{
+  position: relative;
+  display: inline-block;
+}
+  .drop-content{
+  display: none;
+  position: absolute;
+  background-color: white;
+  min-width: 120px;
+  font-size: 16px;
+  top: 34px;
+  z-index: 1;
+  box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.4);
+}
+/* on hover show dropdown */
+.dropdown:hover .drop-content, .dropdown2:hover .drop-content2 {
+  display: block;
+}
+
+.h4a{
+  padding-left: 0rem;
+  font-size: 50px;
+  font-weight: bold;
+  color: #F5DF4D
+}
+/* drondown links */
+.drop-content a {
+  padding: 12px 10px;
+  border-bottom: 1px solid rgb(197, 197, 250);
+  display: block;
+  transition: all 0.5s ease !important;
+}
+.dropBtn .drop-content a:hover {
+  background-color: rgb(230, 230, 230);
+}
+.dropdown:hover .dropBtn, .dropdown2:hover .dropBtn2 {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+  .section-1 .row .col-md-6 .panel {
+    position: initial;
+    width: initial;
+    height: initial;
+  }
+  .section-2 .cover {
+    background-position: -25vmin -10vmin;
+  }
+  .numbers .rect {
+    width: 10rem;
+    height: 8rem;
+  }
+  .numbers .rect h1 {
+    font-size: 2rem;
+  }
+
+  .img1{
+    align-items: center;
+    max-width: 12px;
+    height: 3px;
+  }
+
+  .c{
+    margin-left: -120vmin;
+    margin-top: -10vmin;
+    height: 300px;
+  }
+
+  .s{
+    margin-right: -130vmin;
+    height: 226px;
+left: -21px;
+position: relative;
+    /* width: 10px; */
+  }
+  .md{
+    height: 229px;
+  }
+  .your-money{
+    text-align: left;
+margin-left: 17px;
+  }
+
+  /* .e{
+    margin-bottom: -500vmin;
+    margin-left: -70vmin;
+  }
+  */
+   .e{
+     margin-left: +10vmin;
+   }
+   .tt{
+     margin-left: +10vmin;
+   }
+   .b{
+     margin-left: +10vmin;
+   }
+  .q{
+    margin-left: -35vmin;
+    position: relative;
+    top: -26em;
+    /* margin-top: 100vmin; */
+  }
+
+.a1{
+  margin-left: +10vmin;
+}
+
+.a2{
+  margin-left: +10vmin;
+}
+.a3{
+  height: 200px;
+}
+.about-us{
+  height: 350px;
+  position: relative;
+top: -22em;
+}
+.about-text2{
+  position: relative;
+  top: 409px;
+}
+.container-1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  /* top: -20em; */
+}
+.text-left{
+  text-align: left !important;
+margin-top: 84px;
+}
+.a4{
+  height: 291px;
+}
+
+  .sm{
+S  }
+.payment{
+  position: relative;
+top: -24em;
+}
+  .sm-a{
+    margin-right: -130vmin;
+height: 272px;
+left: -21px;
+position: relative;
+top: -21em;
+  }
+
+  .cir-sm{
+    margin-left: -120vmin;
+    margin-top: -10vmin;
+    height: 180px;
+  }
+
+  .cir{
+    position: relative;
+    /* top: +10em; */
+  }
+
+  .text-left2 {
+  text-align: left !important;
+  position: relative;
+  bottom: -19em;
+  text-align: center;
+}
+  .section-3 {
+    height: inherit;
+    padding: 10vmin !important;
+  }
+  .section-3 .row h1 {
+    padding: 6vmin 4vmin;
+    color: white;
+  }
+  .section-3 .platform .col-md-6 {
+    text-align: center !important;
+  }
+  .section-3 .desktop i {
+    font-size: 8vmin;
+  }
+  .section-4 .carousel-item {
+    padding-left: 0.6rem;
+  }
+  footer .row .col-md-2 {
+    margin-top: 8vmin;
+  }
+}
+
+/* screen size 375px */
+
+@media only screen and (max-width: 375px) {
+  .section-4 .card {
+    width: 18em;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  .section-4 .carousel-inner {
+    margin-left: -4vmin;
+  }
+}

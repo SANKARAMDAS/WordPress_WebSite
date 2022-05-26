@@ -1,0 +1,434 @@
+@import url("https://fonts.googleapis.com/css?family=Acme|Lobster|Patua+One|Rubik|Sniglet");
+* {
+  box-sizing: border-box;
+}
+
+header,
+section {
+  overflow-x: hidden;
+}
+
+.h4a{
+  padding-left: 0rem;
+  font-size: 50px;
+  font-weight: bold;
+}
+
+a:hover{
+  color: white;
+}
+
+:root {
+  --Sniglet-font: "Sniglet", cursive;
+  --Rubik: "Rubik", cursive;
+  --Patua: "Patua One", cursive;
+  --Lobster: "lobster", cursive;
+  --light-black: #2e2c2caf;
+  --bggradient: #1A1A1A;
+  /* --light-gray: rgba(255, 255, 255, 0.877); */
+}
+
+header a {
+  font-family: var(--Sniglet-font);
+  font-size: 0.9em;
+  color: #F5Fd4D;
+  font-size: 20px;
+}
+
+.nv{
+  color: #F5Fd4D;
+}
+
+.i{
+  color: #F5Fd4D;
+}
+
+
+header h4 {
+  font-family: var(--Sniglet-font);
+  font-size: 0.9em;
+  color: #F5Fd4D;
+  font-size: 30px;
+}
+
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 2px 15px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: #white;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+
+header .nav-item:last-child {
+  padding-right: 10.5em;
+}
+
+header .nav-item {
+  padding: 0.9em;
+}
+
+header .navbar-brand {
+  padding-left: 8rem;
+  font-size: 6.5vmin;
+  font-weight: bold;
+
+}
+
+header .nav-link:hover {
+  color: white;
+}
+
+header .row .col-md-7 {
+  padding: 22vmin 1vmin;
+  padding-bottom: 35vmin;
+}
+
+header .row .col-md-5 {
+  padding: 4.2vmin 1vmin;
+  padding-top: 90px;
+}
+
+header .row .col-md-5 img {
+  width: 90%;
+}
+
+header {
+  background: #ff512f;
+  /* fallback for old browsers */
+  background: var(--bggradient);
+}
+
+header .container .col-md-6 {
+  font-family: "Rubik", sans-serif;
+  max-width: 30%;
+  padding-top: 80px;
+}
+
+header .container .col-md-7 h6 {
+  padding: 1vmin;
+  letter-spacing: 4px;
+}
+
+header .container .col-md-7 h1 {
+  font-size: 8.5vmin;
+  font-weight: bold;
+  padding: 0.1em 0em;
+}
+
+header .container .col-md-7 p {
+  padding: 1vmin 5vmin;
+}
+
+
+.btn {
+    padding: 7px 10px;
+    border-width: 2px;
+    border-radius: 0;
+}
+
+.primary-btn {
+  border-radius: 15px;
+  font-weight: bold;
+  background-color: #F5DF4D;
+  height: 45px;
+  width: 20%;
+}
+
+.primary-btn0 {
+  border-radius: 15px;
+  font-weight: bold;
+  background-color: #F5DF4D;
+}
+
+.space {
+  width: 8px;
+  height: auto;
+  display: inline-block;
+}
+
+
+.t1{
+  color: black;
+}
+
+.t11{
+  color: white;
+}
+
+.bg-primary{
+  color: #1a1a1a;
+}
+
+.a4{
+  height: 412px;
+}
+
+.textt{
+  text-align: left !important;
+margin-top: 84px;
+}
+
+/* Section n*/
+.section-m {
+  /* height: 70vmin;
+  margin-top: 15vmin; */
+ background-color: #1A1A1A;
+ height: 300px;
+}
+
+.text{
+  color: white;
+}
+
+.card-body{
+  color: white;
+}
+
+.section-m .container h1 {
+  font-size: 6vmin;
+  padding-top: 14vmin;
+}
+
+.section-m .team {
+  padding: 10vmin 4vmin;
+}
+
+.section-m .card {
+  width: 22em;
+  margin-top: 10vmin;
+  background-color: blue;
+}
+
+
+.section-m .card .card-text {
+  padding: 0.5em;
+}
+
+.border-primary{
+  color: blue;
+}
+
+
+.section-m .card-body > a {
+  font-size: 1.5em;
+}
+
+.section-m .cardN {
+  width: 22em;
+  margin-top: 10vmin;
+  background-color: white;
+  /* border-color: coral; */
+}
+
+.section-m .cardN .card-text {
+  padding: 0.5em;
+}
+
+.section-m .cardN-body > a {
+  font-size: 1.5em;
+}
+
+
+
+.section-m .carousel-item {
+  padding-left: 3rem;
+}
+
+.border-radius {
+  border-radius: 340px;
+  width: 60%;
+}
+
+footer {
+  background: rgba(0, 0, 0, 0.815);
+  overflow-x: hidden;
+  padding: 14vmin 18vmin;
+}
+
+footer p > span {
+  color: #ff512f;
+}
+
+footer input {
+  border: none !important;
+}
+
+footer input::placeholder {
+  color: white !important;
+}
+
+footer .input-group .input-group-text {
+  background: var(--bggradient);
+  border: none;
+}
+
+footer .column i {
+  color: #dd2476;
+}
+
+.contact-info {
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 10px;
+    /* box-shadow: 10px 5px 20px 0px; */
+    border-radius: 20px;
+    }
+    .contact-info-icon {
+    margin-bottom: 15px;
+    }
+    .contact-info-item {
+    background: white;
+    padding: 30px 0px;
+    border-radius: 20px;
+    }
+
+
+
+
+/*section -5*/
+
+.section-5 {
+  padding: 20vmin 0vmin;
+  background-color: #F5DF4D;
+}
+
+.section-5 .row .col-md-6 .pray img {
+  opacity: 1;
+  width: 80%;
+  border-radius: 0.2em;
+  width: 120%;
+}
+
+.section-5 .row .col-md-6:last-child {
+  position: relative;
+}
+
+.section-5 .row .col-md-6 .panel {
+  position: absolute;
+  top: 7vmin;
+  left: -6vmin;
+  border-radius: 3px;
+  text-align: left;
+  padding: 13vmin 5vmin 20vmin 10vmin;
+  /* box-shadow: 0px 25px 42px rgba(0, 0, 0, 0.2); */
+  font-family: var(--Rubik);
+  z-index: 1;
+}
+
+.container-5{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.circle-5{
+  height: 400px;
+  width: 400px;
+  background-color: yellow;
+  border-radius: 50%;
+
+}
+
+
+
+.bb{
+  color: white;
+}
+
+.img {
+  border-radius: 50%;
+}
+
+.section-5 .row .col-md-6 .panel h1 {
+  font-weight: bold;
+  padding: 0.4em 0;
+  font-size: 2em;
+}
+
+.section-5 .row .col-md-6 .panel p {
+  font-size: 0.9em;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+
+/* It is Adjacent sibling combinator */
+
+footer {
+  background: rgba(0, 0, 0, 0.815);
+  overflow-x: hidden;
+  padding: 14vmin 18vmin;
+}
+
+footer p > span {
+  color: #ff512f;
+}
+
+footer input {
+  border: none !important;
+}
+
+footer input::placeholder {
+  color: white !important;
+}
+
+footer .input-group .input-group-text {
+  background: var(--bggradient);
+  border: none;
+}
+
+footer .column i {
+  color: #F5DF4D;
+}
+
+footer .column i + i {
+  padding: 0 0.5em;
+}
+.text-muted1{
+  color: #F5DF4D;
+}
+
+/* .te{
+  flex: 0 0 40.5%
+} */
+
+.tx-1{
+  padding-left: 10%;
+}
+
+.tx-2{
+  padding-left: 15%;
+}
+
+.tx-3{
+  padding-left: 11%;
+  flex: 0 0 .333333%;
+}
+
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.815);
+  z-index: 9999;
+  transition: all 1.5s ease;
+}
