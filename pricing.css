@@ -8,6 +8,15 @@ section {
   overflow-x: hidden;
 }
 
+li{
+  list-style: none;
+}
+
+a{
+  color: #F5DF4D;
+}
+
+
 
 .h4a{
   padding-left: 0rem;

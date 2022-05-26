@@ -18,6 +18,15 @@ a:hover{
   color: white;
 }
 
+li{
+  list-style: none;
+}
+
+a{
+  color: #F5DF4D;
+}
+
+
 :root {
   --Sniglet-font: "Sniglet", cursive;
   --Rubik: "Rubik", cursive;
