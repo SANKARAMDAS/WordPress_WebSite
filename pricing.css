@@ -7,7 +7,9 @@ header,
 section {
   overflow-x: hidden;
 }
-
+body{
+    background-color: #212529;
+}
 li{
   list-style: none;
 }
@@ -34,7 +36,7 @@ a:hover{
   --Patua: "Patua One", cursive;
   --Lobster: "lobster", cursive;
   --light-black: #2e2c2caf;
-  --bggradient: #1A1A1A;
+  --bggradient: #212529;
   /* --light-gray: rgba(255, 255, 255, 0.877); */
 }
 
@@ -199,7 +201,7 @@ margin-top: 84px;
 .section-m {
   /* height: 70vmin;
   margin-top: 15vmin; */
- background-color: #1A1A1A;
+ background-color: #212529;
 }
 
 .text{
@@ -310,7 +312,14 @@ footer .column i {
 
 .section-5 {
   padding: 20vmin 0vmin;
-  background-color: #1a1a1a;
+  background-color: #212529;
+}
+.section-6{
+  padding: 20vmin 0vmin;
+  background-color: #000;
+  border-radius: 29px;
+  padding: 20px;
+  margin-bottom: 20px;
 }
 
 .section-5 .row .col-md-6 .pray img {
@@ -375,7 +384,7 @@ footer .column i {
 /* It is Adjacent sibling combinator */
 
 footer {
-  background: rgba(0, 0, 0, 0.815);
+  background: #212529;
   overflow-x: hidden;
   padding: 14vmin 18vmin;
 }
@@ -433,4 +442,11 @@ footer .column i + i {
   background: rgba(0, 0, 0, 0.815);
   z-index: 9999;
   transition: all 1.5s ease;
+}
+
+.white-border{
+  height: 1px;
+width: 100%;
+border-width: 0;
+color: white;
 }
