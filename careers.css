@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Acme|Lobster|Patua+One|Rubik|Sniglet");
+@import url('https://fonts.googleapis.com/css?family=Acme|Lobster|Patua+One|Rubik|Sniglet');
 * {
   box-sizing: border-box;
 }
@@ -8,50 +8,47 @@ section {
   overflow-x: hidden;
 }
 
-
-.h4a{
+.h4a {
   padding-left: 0rem;
   font-size: 50px;
   font-weight: bold;
 }
 
-a:hover{
+a:hover {
   color: white;
 }
 
 :root {
-  --Sniglet-font: "Sniglet", cursive;
-  --Rubik: "Rubik", cursive;
-  --Patua: "Patua One", cursive;
-  --Lobster: "lobster", cursive;
+  --Sniglet-font: 'Sniglet', cursive;
+  --Rubik: 'Rubik', cursive;
+  --Patua: 'Patua One', cursive;
+  --Lobster: 'lobster', cursive;
   --light-black: #2e2c2caf;
-  --bggradient: #1A1A1A;
+  --bggradient: #1a1a1a;
   /* --light-gray: rgba(255, 255, 255, 0.877); */
 }
 
 header a {
   font-family: var(--Sniglet-font);
   font-size: 0.9em;
-  color: #F5Fd4D;
+  color: #f5fd4d;
   font-size: 20px;
 }
 
-.nv{
-  color: #F5Fd4D;
+.nv {
+  color: #f5fd4d;
 }
 
-.i{
-  color: #F5Fd4D;
+.i {
+  color: #f5fd4d;
 }
-
 
 header h4 {
   font-family: var(--Sniglet-font);
   font-size: 0.9em;
-  color: #F5Fd4D;
+  color: #f5fd4d;
   font-size: 30px;
 }
-
 
 .dropdown-content {
   display: none;
@@ -77,7 +74,6 @@ header h4 {
   display: block;
 }
 
-
 header .nav-item:last-child {
   padding-right: 10.5em;
 }
@@ -90,7 +86,6 @@ header .navbar-brand {
   padding-left: 8rem;
   font-size: 6.5vmin;
   font-weight: bold;
-
 }
 
 header .nav-link:hover {
@@ -118,7 +113,7 @@ header {
 }
 
 header .container .col-md-6 {
-  font-family: "Rubik", sans-serif;
+  font-family: 'Rubik', sans-serif;
   max-width: 30%;
   padding-top: 80px;
 }
@@ -139,23 +134,23 @@ header .container .col-md-7 p {
 }
 
 .btn {
-    padding: 14px 18px;
-    border-width: 2px;
-    border-radius: 0;
+  padding: 14px 18px;
+  border-width: 2px;
+  border-radius: 0;
 }
 
 .primary-btn {
-  border-radius: 30px;
+  border-radius: 15px;
   font-weight: bold;
-  background-color: #F5DF4D;
+  background-color: #f5df4d;
   height: 45px;
-  width: 60%;
+  width: 18%;
 }
 
 .primary-btn0 {
   border-radius: 15px;
   font-weight: bold;
-  background-color: #F5DF4D;
+  background-color: #f5df4d;
 }
 
 .space {
@@ -164,46 +159,50 @@ header .container .col-md-7 p {
   display: inline-block;
 }
 
-
-.t1{
+.t1 {
   color: black;
 }
 
-.t11{
+.t11 {
   color: white;
 }
 
-.bg-primary{
+.bg-primary {
   color: #1a1a1a;
 }
 
-.a4{
+.a4 {
   height: 412px;
 }
 
-.textt{
+.textt {
   text-align: left !important;
-margin-top: 84px;
+  margin-top: 84px;
 }
 
 /* Section n*/
 .section-m {
   /* height: 70vmin;
   margin-top: 15vmin; */
- background-color: #1A1A1A;
+  background-color: #1a1a1a;
+  height: 300px;
 }
 
-.text{
+.text {
   color: white;
 }
 
-.card-body{
+.card-body {
   color: white;
+}
+
+.container {
+  max-width: 1100px;
 }
 
 .section-m .container h1 {
   font-size: 6vmin;
-  padding-top: 14vmin;
+  padding-top: 5vmin;
 }
 
 .section-m .team {
@@ -216,15 +215,13 @@ margin-top: 84px;
   background-color: blue;
 }
 
-
 .section-m .card .card-text {
   padding: 0.5em;
 }
 
-.border-primary{
+.border-primary {
   color: blue;
 }
-
 
 .section-m .card-body > a {
   font-size: 1.5em;
@@ -245,7 +242,9 @@ margin-top: 84px;
   font-size: 1.5em;
 }
 
-
+.sec2 {
+  color: white;
+}
 
 .section-m .carousel-item {
   padding-left: 3rem;
@@ -284,18 +283,16 @@ footer .column i {
 }
 
 .btnN {
-    padding: 14px 18px;
-    border-width: 2px;
-    border-radius: 0;
+  padding: 14px 18px;
+  border-width: 2px;
+  border-radius: 0;
 }
 
 .primary-btnN {
   border-radius: 30px;
   font-weight: bold;
-  background-color: #F5DF4D;
+  background-color: #f5df4d;
 }
-
-
 
 /*section -5*/
 
@@ -327,23 +324,20 @@ footer .column i {
   z-index: 1;
 }
 
-.container-5{
+.container-5 {
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-.circle-5{
+.circle-5 {
   height: 400px;
   width: 400px;
   background-color: yellow;
   border-radius: 50%;
-
 }
 
-
-
-.bb{
+.bb {
   color: white;
 }
 
@@ -361,7 +355,6 @@ footer .column i {
   font-size: 0.9em;
   color: rgba(0, 0, 0, 0.5);
 }
-
 
 /* It is Adjacent sibling combinator */
 
@@ -389,33 +382,32 @@ footer .input-group .input-group-text {
 }
 
 footer .column i {
-  color: #F5DF4D;
+  color: #f5df4d;
 }
 
 footer .column i + i {
   padding: 0 0.5em;
 }
-.text-muted1{
-  color: #F5DF4D;
+.text-muted1 {
+  color: #f5df4d;
 }
 
 /* .te{
   flex: 0 0 40.5%
 } */
 
-.tx-1{
+.tx-1 {
   padding-left: 10%;
 }
 
-.tx-2{
+.tx-2 {
   padding-left: 15%;
 }
 
-.tx-3{
+.tx-3 {
   padding-left: 11%;
-  flex: 0 0 .333333%;
+  flex: 0 0 0.333333%;
 }
-
 
 .sticky {
   position: fixed;
@@ -424,4 +416,107 @@ footer .column i + i {
   background: rgba(0, 0, 0, 0.815);
   z-index: 9999;
   transition: all 1.5s ease;
+}
+
+li{
+  list-style: none;
+}
+
+a{
+  color: #F5DF4D;
+}
+.thead {
+  background-color: lightgray;
+}
+
+.white-border {
+  height: 1px;
+  width: 98%;
+  border-width: 0;
+  color: gray;
+}
+.open-position {
+  padding-left: 4em;
+  font-weight: 700;
+}
+.our-hiring {
+  font-weight: 700;
+}
+.job-title {
+  font-weight: 700;
+}
+.job-btn {
+  border-radius: 30px;
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.hiring-section {
+  background-color: yellow;
+}
+.hiring-card {
+  background-color: white;
+  border-radius: 10px;
+  padding: 10px;
+  text-align: center;
+  margin: 8px;
+
+  width: 18.499999995% !important;
+  flex: 0 0 18.499% !important;
+  max-width: 18.499% !important;
+}
+.i-colour {
+  color: lightgray;
+  position: relative;
+  left: 31px;
+}
+.step-clr {
+  color: lightgray;
+}
+.hiring-card-title {
+  font-size: 14px;
+  font-weight: 700;
+}
+.hiring-card-desc {
+  font-size: 10px;
+  color: lightgray;
+}
+
+.applied-card {
+  background-color: #574ae2;
+  border-radius: 5px;
+  margin: 5px;
+  padding: 20px;
+  width: 31.499999995% !important;
+  flex: 0 0 31.499% !important;
+  max-width: 31.499% !important;
+}
+
+.applied-card-img {
+  border-radius: 50%;
+  height: 50px;
+}
+
+.applied-card-name {
+  color: white;
+  font-weight: 600;
+}
+.applied-card-title {
+  color: white;
+}
+.applied-card-linkedin {
+  background-color: #1a1a1a;
+  border-radius: 5px;
+  margin: 5px;
+  padding: 20px;
+  width: 31.499999995% !important;
+  flex: 0 0 31.499% !important;
+  max-width: 31.499% !important;
+}
+.applied-card-name-linkedin {
+  color: #f5df4d;
+  font-weight: 600;
+}
+.applied-card-title-linkedin {
+  color: #f5df4d;
 }
